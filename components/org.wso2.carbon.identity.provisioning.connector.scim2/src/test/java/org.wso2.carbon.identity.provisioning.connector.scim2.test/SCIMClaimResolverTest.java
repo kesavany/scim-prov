@@ -17,9 +17,7 @@
 */
 package org.wso2.carbon.identity.provisioning.connector.scim2.test;
 
-import org.junit.runner.RunWith;
 import org.powermock.api.mockito.PowerMockito;
-import org.powermock.modules.junit4.PowerMockRunner;
 import org.powermock.reflect.Whitebox;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -30,7 +28,6 @@ import org.wso2.charon3.core.schema.SCIMSchemaDefinitions;
 
 import static org.mockito.MockitoAnnotations.initMocks;
 
-@RunWith(PowerMockRunner.class)
 public class SCIMClaimResolverTest {
 
     private SCIMClaimResolver scimClaimResolver;
@@ -44,12 +41,14 @@ public class SCIMClaimResolverTest {
 
     @AfterMethod
     public void tearDown() throws Exception {
+
     }
 
     @Test
     public void testGetResourceSchema() throws Exception {
+
         SCIMClaimResolver s = PowerMockito.spy(scimClaimResolver);
-        Assert.assertEquals(Whitebox.invokeMethod(s, "getResourceSchema",2),
+        Assert.assertEquals(Whitebox.invokeMethod(s, "getResourceSchema", 2),
                 SCIMSchemaDefinitions.SCIM_GROUP_SCHEMA);
     }
 }

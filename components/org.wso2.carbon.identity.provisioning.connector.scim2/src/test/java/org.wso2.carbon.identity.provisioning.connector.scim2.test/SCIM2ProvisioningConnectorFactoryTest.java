@@ -15,16 +15,11 @@
  */
 package org.wso2.carbon.identity.provisioning.connector.scim2.test;
 
-import org.junit.runner.RunWith;
-import org.powermock.modules.junit4.PowerMockRunner;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.wso2.carbon.identity.application.common.model.Property;
-import org.wso2.carbon.identity.provisioning.AbstractOutboundProvisioningConnector;
-import org.wso2.carbon.identity.provisioning.IdentityProvisioningException;
-import org.wso2.carbon.identity.provisioning.connector.scim2.SCIM2ProvisioningConnector;
 import org.wso2.carbon.identity.provisioning.connector.scim2.SCIM2ProvisioningConnectorFactory;
 
 import java.util.ArrayList;
@@ -32,8 +27,8 @@ import java.util.List;
 
 import static org.mockito.MockitoAnnotations.initMocks;
 
-@RunWith(PowerMockRunner.class)
 public class SCIM2ProvisioningConnectorFactoryTest {
+
     private SCIM2ProvisioningConnectorFactory scim2ProvisioningConnectorFactory;
 
     @BeforeMethod
@@ -45,8 +40,9 @@ public class SCIM2ProvisioningConnectorFactoryTest {
 
     @AfterMethod
     public void tearDown() throws Exception {
+
     }
-    
+
     @Test
     public void testGetConnectorType() {
 
@@ -56,6 +52,7 @@ public class SCIM2ProvisioningConnectorFactoryTest {
 
     @Test
     public void testGetConfigurationProperties() {
+
         List<Property> configProperties = new ArrayList<Property>();
         Property username = new Property();
         configProperties.add(username);

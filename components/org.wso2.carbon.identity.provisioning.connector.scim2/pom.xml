@@ -104,12 +104,12 @@
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-module-junit4</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.powermock</groupId>-->
+			<!--<artifactId>powermock-module-junit4</artifactId>-->
+			<!--<version>${powermock.version}</version>-->
+			<!--<scope>test</scope>-->
+		<!--</dependency>-->
 		<!--<dependency>-->
 			<!--<groupId>org.powermock</groupId>-->
 			<!--<artifactId>powermock-module-testng</artifactId>-->
@@ -127,12 +127,12 @@
 			<artifactId>mockito-all</artifactId>
 			<version>${mockito.version}</version>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>org.powermock</groupId>-->
-			<!--<artifactId>powermock-module-testng</artifactId>-->
-			<!--<version>${powermock.version}</version>-->
-			<!--<scope>test</scope>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-module-testng</artifactId>
+			<version>${powermock.version}</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
