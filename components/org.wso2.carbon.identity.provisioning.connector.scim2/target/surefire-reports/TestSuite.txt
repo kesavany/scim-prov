@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.648 sec <<< FAILURE! - in TestSuite
+testCreateUser(org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorTest)  Time elapsed: 55.016 sec  <<< FAILURE!
+org.wso2.carbon.identity.provisioning.IdentityProvisioningException: Error while creating the user : testUser
+	at org.wso2.carbon.identity.provisioning.connector.scim2.SCIM2ProvisioningConnector.setUserPassword(SCIM2ProvisioningConnector.java:363)
+	at org.wso2.carbon.identity.provisioning.connector.scim2.SCIM2ProvisioningConnector.createUser(SCIM2ProvisioningConnector.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.powermock.reflect.internal.WhiteboxImpl.performMethodInvocation(WhiteboxImpl.java:1899)
+	at org.powermock.reflect.internal.WhiteboxImpl.doInvokeMethod(WhiteboxImpl.java:801)
+	at org.powermock.reflect.internal.WhiteboxImpl.invokeMethod(WhiteboxImpl.java:666)
+	at org.powermock.reflect.Whitebox.invokeMethod(Whitebox.java:401)
+	at org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorTest.testCreateUser(SCIM2ProvisioningConnectorTest.java:114)
+

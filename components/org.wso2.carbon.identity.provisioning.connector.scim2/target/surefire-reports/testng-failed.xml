@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Identity-connector-scim2-test-suite]">
+  <test name="scim2-authenticator-all">
+    <classes>
+      <class name="org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorFactoryTest"/>
+      <class name="org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorTest"/>
+      <class name="org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIMClaimResolverTest"/>
+    </classes>
+  </test> <!-- scim2-authenticator-all -->
+  <test name="scim2-authenticator-all(failed)">
+    <classes>
+      <class name="org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCreateUser"/>
+        </methods>
+      </class> <!-- org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorTest -->
+      <class name="org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorFactoryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIM2ProvisioningConnectorFactoryTest -->
+      <class name="org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIMClaimResolverTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.wso2.carbon.identity.provisioning.connector.scim2.test.SCIMClaimResolverTest -->
+    </classes>
+  </test> <!-- scim2-authenticator-all(failed) -->
+</suite> <!-- Failed suite [Identity-connector-scim2-test-suite] -->

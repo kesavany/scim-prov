@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/identity-outbound-provisioning-scim2.iml" filepath="$PROJECT_DIR$/identity-outbound-provisioning-scim2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components/org.wso2.carbon.identity.provisioning.connector.scim2/org.wso2.carbon.identity.provisioning.connector.scim2.iml" filepath="$PROJECT_DIR$/components/org.wso2.carbon.identity.provisioning.connector.scim2/org.wso2.carbon.identity.provisioning.connector.scim2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/org.wso2.carbon.identity.provisioning.connector.scim2.server.feature/org.wso2.carbon.identity.provisioning.connector.scim2.server.feature.iml" filepath="$PROJECT_DIR$/features/org.wso2.carbon.identity.provisioning.connector.scim2.server.feature/org.wso2.carbon.identity.provisioning.connector.scim2.server.feature.iml" />
+    </modules>
+  </component>
+</project>

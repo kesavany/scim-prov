@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.wso2.carbon.identity.provisioning.connector.scim2.internal.SCIM2ConnectorServiceComponent" name="%org.wso2.carbon.identity.provisioning.connector.scim2.internal.SCIM2ConnectorServiceComponent.name" description="%org.wso2.carbon.identity.provisioning.connector.scim2.internal.SCIM2ConnectorServiceComponent.description"/>
+    <Designate pid="org.wso2.carbon.identity.provisioning.connector.scim2.internal.SCIM2ConnectorServiceComponent">
+        <Object ocdref="org.wso2.carbon.identity.provisioning.connector.scim2.internal.SCIM2ConnectorServiceComponent"/>
+    </Designate>
+</metatype:MetaData>
